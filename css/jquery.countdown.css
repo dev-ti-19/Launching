@@ -1,0 +1,112 @@
+
+.countDays{
+  position: relative;
+}
+.countDays::after{
+  position: absolute;
+  content: 'days';
+  color: #fff;
+  top: 0px;
+  left: 10px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+}
+.countHours{
+  position: relative;
+}
+.countHours::after {
+color: #fff;
+content: "hours";
+font-family: "Raleway",sans-serif;
+font-size: 20px;
+font-weight: 200;
+left: 2px;
+letter-spacing: 1px;
+position: absolute;
+top: 0;
+}
+.countMinutes{
+  position: relative;
+}
+.countMinutes::after{
+  position: absolute;
+  content: 'minutes';
+  color: #fff;
+  top: 0px;
+  left: -10px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+}
+.countSeconds{
+  position: relative;
+}
+.countSeconds::after{
+  position: absolute;
+  content: 'seconds';
+  color: #fff;
+  top: 0px;
+  left: -10px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+}
+.countdownHolder{
+	margin:0 auto;
+	font: 40px/1'Open Sans Condensed',sans-serif;
+letter-spacing:-10px;
+}
+
+.position{
+	display: inline-block;
+	height: 1.6em;
+	overflow: hidden;
+	position: relative;
+	width: 0.50em;
+    font-size: 70px
+}
+
+.digit {
+  background-color: transparent;
+  border-radius: 0.2em;
+  color: #fff;
+  display: block;
+  font-size: 60px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  position: absolute;
+  text-align: center;
+  width: 0.5em;
+}
+.countDays{ /* display:none !important;*/ }
+.countDiv0{ /* display:none !important;*/ }
+.countHours{}
+.countDiv1{}
+.countMinutes{}
+.countDiv2{}
+.countSeconds{}
+
+
+.countDiv{
+	display:inline-block;
+	width:60px;
+	height:2.7em;
+	position:relative;
+}
+
+
+.countDiv::after {
+  background-color: #151414;
+  content: "";
+  display: none;
+  height: 100px;
+  left: 50%;
+  margin-left: -3px;
+  position: absolute;
+  top: 5px;
+  width: 3px;
+}
