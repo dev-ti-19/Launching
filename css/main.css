@@ -824,16 +824,10 @@ header .logo a {
 	border: none;
 	width: 297px;
 	height: 124px;
-	background: url("../images/logo.1.png") no-repeat center;
 	background-size: 297px 124px;
 	font: 0/0 a;
 	text-shadow: none;
 	color: transparent;
-	-moz-transition: all 0.5s ease-in-out;
-	-o-transition: all 0.5s ease-in-out;
-	-webkit-transition: all 0.5s ease-in-out;
-	-ms-transition: all 0.5s ease-in-out;
-	transition: all 0.5s ease-in-out;
 }
 
 /* ------------------------------------------------------------------- 
@@ -883,8 +877,6 @@ header .social-links ul li a:focus {
 		margin-top: 42px;
 	}
 	header .logo a {
-		width: 90px;
-		height: 78px;
 		background-size: 90px 78px;
 	}
 	header .social-links {
@@ -898,8 +890,6 @@ header .social-links ul li a:focus {
 		margin-top: 36px;
 	}
 	header .logo a {
-		width: 80px;
-		height: 70px;
 		background-size: 80px 70px;
 	}
 	header .social-links {
@@ -913,8 +903,6 @@ header .social-links ul li a:focus {
 		margin-top: 30px;
 	}
 	header .logo a {
-		width: 70px;
-		height: 61px;
 		background-size: 70px 61px;
 	}
 	header .social-links {
@@ -945,8 +933,6 @@ header .social-links ul li a:focus {
 		margin-top: 30px;
 	}
 	header .logo a {
-		width: 60px;
-		height: 52px;
 		background-size: 60px 52px;
 	}
 	header .social-links ul {
